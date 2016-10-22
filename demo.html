@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All In One Gallery Demo</title>
+
+	<!-- Include Meta Tag(s) -->
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<meta name="author" content="Mohammad Sharaf Ali">
+	<meta name="description" content="All In One Media Gallery Demo">
+
+	<!-- Include Stylesheet(s) -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="assets/css/hover.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+</head>
+<body>
+	<div class="container">
+		<h3 class="text-center">All In One Gallery Demo</h3>
+		<h4 class="text-center"><small>All portfolio resources inside one fancy gallery!</small></h4>
+		<!-- Gallery section start -->
+		<section id="portfolio-version-two">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Gallery filters start -->
+					<div class="col-lg-12">
+						<ul class="gallery-filter">
+							<li data-filter="all">
+								<span>All</span>
+							</li>
+							<li data-filter=".images">
+								<span>Images</span>
+							</li>
+							<li data-filter=".videos">
+								<span>Videos</span>
+							</li>
+							<li data-filter=".documents">
+								<span>Documents</span>
+							</li>
+							<li data-filter=".links">
+								<span>Ext. Links</span>
+							</li>
+						</ul>
+					</div>
+					<!-- Gallery filters end -->
+				</div>
+				<!-- Gallery assets start -->
+				<div id="image-gallery-mix" class="row">
+					<!-- Images section start -->
+					<div class="col-lg-3 col-sm-6 col-xs-12 images mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="assets/gallery/img-1.jpg" alt="Image title 1" />
+							<a class="fancybox" href="assets/gallery/img-1.jpg" rel="gallery">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Image title 1</h4>
+											<span>Image description 1</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12 images mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="assets/gallery/img-2.jpg" alt="Image title 2" />
+							<a class="fancybox" href="assets/gallery/img-2.jpg" rel="gallery">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Image title 2</h4>
+											<span>Image description 2</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Images section end -->
+
+					<!-- Videos section start -->
+					<div class="col-lg-3 col-sm-6 col-xs-12 videos mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="//img.youtube.com/vi/IVx6ZlksMJw/0.jpg" alt="Video title 1" />
+							<a class="fancybox fancybox.iframe" href="//www.youtube.com/embed/IVx6ZlksMJw?autoplay=0&rel=0&showinfo=0" rel="gallery">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Video title 1</h4>
+											<span>Video description 1</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12 videos mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="//img.youtube.com/vi/E5ln4uR4TwQ/0.jpg" alt="Video title 2" />
+							<a class="fancybox fancybox.iframe" href="//www.youtube.com/embed/E5ln4uR4TwQ?autoplay=0&rel=0&showinfo=0" rel="gallery">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Video title 2</h4>
+											<span>Video description 2</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Videos section end -->
+
+					<!-- Documents section start -->
+					<div class="col-lg-3 col-sm-6 col-xs-12 documents mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="assets/gallery/img-3.jpg" alt="Doc title 1" />
+							<a class="fancybox fancybox.iframe" href="assets/gallery/test-document.pdf" rel="gallery">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Pdf Doc title 1</h4>
+											<span>Doc description 1</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12 documents mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="assets/gallery/img-3.jpg" alt="Doc title 2" />
+							<a class="fancybox fancybox.iframe" href="https://docs.google.com/spreadsheets/d/1YJ8r3o8QQ79YaQygHfkJrgLvXdlz1ud-cVRicJ9iYPY/pubhtml?widget=true&headers=false" rel="gallery">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Google Sheets title 2</h4>
+											<span>Google Sheets description 2</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Documents section end -->
+
+					<!-- Ext. Links section start -->
+					<div class="col-lg-3 col-sm-6 col-xs-12 links mix">
+						<div class="img-wrap">
+							<img class="media-object img-responsive lazyload" data-src="assets/gallery/img-4.jpg" alt="Ext. Links title 1" />
+							<a class="fancybox" href="https://www.flickr.com/photos/" rel="" target="_blank">
+								<div class="content-wrap hvr-rectangle-out">
+									<div class="border">
+										<div class="content">
+											<h4>Flickr Gallery title 1</h4>
+											<span>Flickr Gallery description 1</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Ext. Links section end -->
+				</div>
+				<!-- Gallery assets end -->
+			</div>
+		</section>
+		<!-- Gallery section end -->
+	</div>
+
+	<!-- Include Javascript(s) -->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+	<!-- [async] The script will be executed asynchronously as soon as it is available -->
+	<script type="text/javascript" src="assets/js/lazysizes.min.js" async=""></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
