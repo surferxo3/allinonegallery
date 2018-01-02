@@ -58,8 +58,8 @@ $('.fancybox').fancybox({
 ```
 ## Note
 * Following script versions have been used in *demo.html*
-  * MixItUp v2.1.8 - [documentation] (https://mixitup.kunkalabs.com/docs/)
-  * Fancybox v2.1.5 - [documentation] (http://fancybox.net/api)
-  * Lazysizes v1.3.2 - [documentation] (https://github.com/aFarkas/lazysizes)
+  * MixItUp v2.1.8 - [documentation](https://mixitup.kunkalabs.com/docs/)
+  * Fancybox v2.1.5 - [documentation](http://fancybox.net/api)
+  * Lazysizes v1.3.2 - [documentation](https://github.com/aFarkas/lazysizes)
 
-For more info about [ME] (http://bit.ly/msharaf-linkedin) visit my profile.
+For more info about [ME](http://bit.ly/msharaf-linkedin) visit my profile.
